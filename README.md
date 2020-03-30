@@ -17,12 +17,18 @@ Researcher: jason (https://github.com/leona4040/)
 
 *Attack Scenario: Stored Cross Site Scripting*
 
-Step 1. Login into PSG-6528VM
-Step 2: Go to system information configuration page.   the malicious code in tags 
-Step 3: User can inject payload in "System Contact" & "System Location" field.
-I have used &lt;img src=# onmouseover="alert('xss')"&gt; XSS payload
-Step 4: Then click on save
-Step 5: when moving the mouse pointer onto an image then XSS Script will get execute.
+Step 1. Login into PSG-6528VM.  
+
+Step 2: Go to system information configuration page.  
+
+Step 3: User can inject payload in "System Contact" & "System Location" field.  
+
+        payload:&lt;img src=# onmouseover="alert('xss')"&gt;
+
+Step 4: Then click on save   
+
+Step 5: when moving the mouse pointer onto an image then XSS Script will get execute.   
+
 
 
 # Screenshots:
