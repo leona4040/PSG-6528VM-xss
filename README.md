@@ -33,4 +33,6 @@ Step 5: when moving the mouse pointer onto an image then XSS Script will get exe
 
 # Screenshots:
 
-![image](https://github.com/leona4040/PSG-6528VM-xss/blob/master/xss_payload.png)
+![image](https://github.com/leona4040/PSG-6528VM-xss/blob/master/xss_payload.png)  
+
+![image](eten_xss.png)
