@@ -23,7 +23,7 @@ Step 2: Go to system information configuration page.
 
 Step 3: User can inject payload in "System Contact" & "System Location" field.  
 
-        payload:&lt;img src=# onmouseover="alert('xss')"&gt;
+        payload:<img src=# onmouseover="alert('xss')">
 
 Step 4: Then click on save   
 
